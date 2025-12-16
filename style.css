@@ -20,6 +20,7 @@ nav{
     margin: 15px;
     border-radius: 8px;
 }
+
 .logo{
     width: 60px;
     height: 60px;
@@ -32,6 +33,7 @@ nav{
     font-size: 30px;
     
 }
+
 .nav-links{
     display: flex;
     gap: 40px;
@@ -44,6 +46,7 @@ nav{
     border-bottom: 1px solid transparent;
     position: relative;
 }
+
 .nav-links a.active::after
 .nav-linksa:hover::after{
     content: 'hello';
@@ -55,6 +58,7 @@ nav{
     background: white;
 
 }
+
 .contact-btn {
     background: linear-gradient(#5109f7, #a409f2);
     color: white;
@@ -64,9 +68,11 @@ nav{
     font-weight: 600;
     transition: 0.3s;
 }
+
 .contact-btn:hover{
     transform: translateY(-2px);
 }
+
 .hero{
     display: flex;
     align-items: center;
@@ -74,6 +80,8 @@ nav{
     padding: 100px 80px;
     min-height: 90vh;
 }
+
+
 .hero-content{
     flex: 1;
     max-width: 600px;
@@ -85,4 +93,3 @@ nav{
     margin: 20px;
     letter-spacing: 2px;
 }
-
