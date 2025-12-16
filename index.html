@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <nav>
         <div class="logo"></div>
         <div class="nav-links">
@@ -18,9 +17,10 @@
         </div>
         <a href="#contact" class="contact-btn">Contact</a>
     </nav>
+
 <section class="hero" id="hero">
     <div class="hero-content">
-        <p>Welcom To My World </p>
+        <p>Welcom To My World ✨</p>
         <h1>
             Hi, I'm <span>Derrick Laud</span>
         </h1>
@@ -43,7 +43,12 @@
     </div>
 
     <div class="hero-image">
-        <div class=""></div>
+        <div class="profile-card">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="profile-placeholder">👨‍💻</div>
+        </div>
     </div>
 </section>
 <div class="scroll-indicator">↓</div>
@@ -54,6 +59,7 @@
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus voluptatibus voluptate excepturi accusantium placeat consequatur laboriosam asperiores, debitis eos incidunt quisquam sapiente reiciendis perferendis saepe, recusandae non, amet quo ex!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi ut quis hic totam animi quidem error autem laborum, dolores nobis consectetur optio velit, excepturi cupiditate maxime magnam omnis unde!
+       
         </p>
     </div>
 </section>
@@ -62,33 +68,29 @@
     <h2>Skills & Technologies</h2>
     <div class="skill-containers">
         <div class="skill-card">
-            <div class="skill-icon"></div>
+            <div class="skill-icon">🍃</div>
             <h3>MongoDB</h3>
         </div>
         <div class="skill-card">
-            <div class="skill-icon"></div>
-            <h3>MongoDB</h3>
+            <div class="skill-icon">⚡</div>
+            <h3>Express.js</h3>
         </div>
         <div class="skill-card">
-            <div class="skill-icon"></div>
-            <h3>MongoDB</h3>
+            <div class="skill-icon">🌸</div>
+            <h3>React</h3>
         </div>
         <div class="skill-card">
-            <div class="skill-icon"></div>
-            <h3>MongoDB</h3>
+            <div class="skill-icon">📗</div>
+            <h3>Node.js</h3>
         </div>
         <div class="skill-card">
-            <div class="skill-icon"></div>
-            <h3>MongoDB</h3>
-        </div>
-        <div class="skill-card">
-            <div class="skill-icon"></div>
+            <div class="skill-icon">🎨</div>
             <h3>HTML/CSS/JS</h3>
         </div>
     </div>
 </section>
-<section>
-<div class="project-section" id="projects">
+
+<section class="project-section" id="projects">
     <h2>My Projects</h2>
     <div class="projects-container">
         <div class="project-card">
@@ -99,24 +101,35 @@
             <div class="project-tags">
                 <span class="tag">React</span>
                 <span class="tag">Node js</span>
-                <span class="tag"></span>
-                <span class="tag">React</span>
-                <span class="tag">React</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">Git/Github</span>
             </div>
         </div>
-
+        <div class="project-card">
+            <h3>Social Media Dashboard</h3>
+            <p class="project-desc">
+                An analytics dasboard to get all social media analytics in one place and automated..
+            </p>
+            <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">Git/Github</span>
+            </div>
+        </div>
     </div>
-</div>
 </section>
 
 <section class="content-section" id="contact">
     <h2>Get In Touch</h2>
     <form class="contact-form" id="contact form">
-        <input type="text" placeholder="Your Name">
-        <input type="text" placeholder="Your Email">
-        <textarea type="text" placeholder="Your messsage"></textarea>
+        <input type="text" placeholder="Your Name"required>
+        <input type="text" placeholder="Your Email" required>
+        <textarea placeholder="Your messsage"required></textarea>
+        <button type="submit" class="submit-btn">Send messsage</button>
     </form>
-
 </section>
 
     <script src="script.js"></script>
